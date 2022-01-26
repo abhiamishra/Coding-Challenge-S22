@@ -37,12 +37,18 @@ Binary classification is the task of classifying characteristics of a species be
 
  Internet Documentation Used:
   - [sklearn package](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.base)
+     - [feature selection](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_selection)
+     - [ensemble](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble)
+     - [metrics](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics)
+     - [model selection](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.model_selection)
+     - [preprocessing](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing)
   - [XGBOOST library](https://xgboost.readthedocs.io/en/stable/)
   - [Pandas](https://pandas.pydata.org/)
   - [NumPy](https://numpy.org/)
   - [Matplotlib](https://matplotlib.org/)
   - [Seaborn](https://seaborn.pydata.org/)
-
+  - [Get the mappings for a label encoding](https://stackoverflow.com/questions/42196589/any-way-to-get-mappings-of-a-label-encoder-in-python-pandas)
+  
 ## Attempt One
 
    The very first attempt was to utilize a simple random forest classification. I had multiple reasons to use a random forest classifier as my primary method. The first reason was that in random forest classification, the number of uncorrelated, decision trees all coming and using different features in random variations gives us a good way to control the amount of bias in our final answer. Since we have random decision trees all working in an ensemble, our final answer/classification has less bias and as such, gives us a more accurate classification. 
