@@ -48,6 +48,7 @@ Binary classification is the task of classifying characteristics of a species be
   - [Matplotlib](https://matplotlib.org/)
   - [Seaborn](https://seaborn.pydata.org/)
   - [Get the mappings for a label encoding](https://stackoverflow.com/questions/42196589/any-way-to-get-mappings-of-a-label-encoder-in-python-pandas)
+  - [Creating feature importance bar plot](https://stackoverflow.com/questions/44511636/plot-feature-importance-with-feature-names)
   
 ## Attempt One
 
